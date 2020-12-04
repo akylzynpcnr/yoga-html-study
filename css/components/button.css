@@ -1,0 +1,5 @@
+.btn-primary {
+    background-color: var(--primary);
+    padding-left: 25px;
+    padding-right: 25px;
+}

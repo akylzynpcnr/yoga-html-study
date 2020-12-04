@@ -1,0 +1,13 @@
+/*
+* Media
+*/
+
+.media__image{
+    border: 1px solid var(--primary);
+    border-radius:50%;
+    width: 72px;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

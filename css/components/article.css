@@ -1,0 +1,15 @@
+/*
+* Article 
+*/
+
+.article__title {
+    font-size: 48px;
+    font-weight: 400;
+    color: var(--primary);
+}
+
+.article__summary {
+    font-size: 14px;
+    color: var(--text);
+    font-weight: 400;
+}

@@ -1,0 +1,49 @@
+/*
+* Card-slider
+*/
+
+.card--slider {
+    border: none;
+    background-color: transparent;
+}
+
+.card--slider .card-title {
+    color: var(--primary);
+    font-size: 18px;
+}
+
+.card--slider .card-text {
+ font-size: 14px;
+ color: #666;
+}
+
+
+.card-slider__list li {
+    display: flex;
+    align-items:center;
+}
+
+.card-slider__list p{
+    margin: 0;
+    font-size: 13px;
+    color: #999;
+}
+
+.card-slider__list img{
+    margin-right: 8px;
+}
+
+.card-slider__badge {
+    position: absolute;
+    left: 14px;
+    color: #fff;
+    background-color: #7492ec;
+    border-radius: 0 50px 50px 0;
+    width: 83px;
+    height: 33px;
+    bottom: 32px;
+    line-height: 33px;
+    padding-left: 8px;
+    font-size:14px;
+    
+}

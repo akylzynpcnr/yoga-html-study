@@ -1,0 +1,16 @@
+/*
+* Video
+*/
+
+.video {
+    width: 560px;
+    height: 350px;
+}
+
+@media only screen and (max-width: 768px) {
+    .video {
+        max-width: 100%;
+        margin-bottom: 24px;
+    }
+}
+

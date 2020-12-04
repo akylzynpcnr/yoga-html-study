@@ -1,0 +1,186 @@
+/*
+* Sections
+*/
+
+.section--about {
+    background: url(../../images/about/cicek.png) no-repeat;
+    background-position: right center;
+    background-size: 450px;
+}
+
+.section--about p {
+    font-size: 14px;
+    color: #666;
+}
+
+.section--carousel {
+    position: relative;
+    background: url(../../images/classes/bg-women.png) no-repeat;
+    background-position: left center;
+    padding: 120px 0;
+    margin: 100px 0 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .section--carousel {
+        margin: 32px 0 0;
+    }
+}
+
+.section--carousel:before {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    width: 135px;
+    height: 112px;
+    background: url(../../images/classes/caption.png) no-repeat;
+    margin-left: -67.5px;
+    content: "";
+}
+
+.section--carousel__header {
+    text-align: center;
+    color: var(--primary);
+    font-size: 48px;
+    margin-bottom:25px;
+}
+
+.section--gallery{
+    padding: 120px 0;
+}
+
+
+.section--gallery__header {
+    color: #000;
+    font-size: 32px;
+    text-align: center;
+}
+
+.section--gallery__p {
+    color: #000;
+    font-size: 14px;
+    text-align: center;
+}
+
+.section--caption{
+    position: relative;
+    background: url(../../images/blue/blue-bg.png) no-repeat;
+    background-position: top center;
+    padding: 140px 0;
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .section--caption {
+        padding: 32px 0;
+    }
+}
+
+
+.section--caption__header{
+    color: #fff;
+    font-size: 32px;
+}
+
+.section--caption__p{
+    color: #fff;
+    font-size:14px;
+}
+
+@keyframes bounce {
+    0% {
+      transform: translateY(0);
+    }
+    20% {
+      transform: translateY(-10px);
+    }
+    60% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+
+.section--caption__image{
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius:50%;
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    animation-iteration-count: infinite;
+    animation-duration: 1.5s;
+    animation: bounce 2s ease infinite;
+    transform-origin: 50% 50%;
+}
+
+.section--action{
+    position: relative;
+    background: url(../../images/caption/bg-yoga.png) no-repeat;
+    background-position: 30% top;
+    margin: 100px 0 0;
+    padding: 240px 0;
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .section--action {
+        padding: 48px 0;
+        margin: 32px 0 0;
+    }
+}
+
+
+.section--action__header{
+    color: var(--primary);
+    font-size: 48px;
+}
+
+.section--action__p{
+    color: var(--primary);
+}
+
+.section--brands{
+    padding: 75px 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .section--caption {
+        padding: 32px 0;
+    }
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .section--brands img {
+        margin: 10px 0;
+    }
+}
+
+.section--page-header {
+    position: relative;
+    height: 500px;
+    background: url(../../images/aboutus/banner-aboutus.png) no-repeat;
+}
+
+.section--page-header .title {
+    margin-top: 240px;
+    font-size: 72px;
+    color: var(--primary);
+}
+
+@media only screen and (max-width: 768px) {  
+    .section--page-header .title {
+        margin-top: 140px;
+    }
+}
+
+.section--page-header .subtitle {
+    font-size: 14px;
+    color: var(--primary);
+}

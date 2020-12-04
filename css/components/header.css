@@ -1,0 +1,23 @@
+/*
+* Header 
+*/
+
+.header {
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    width: 100%;
+    padding: 30px 60px;
+    z-index: 1;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .logo {
+        position: absolute;
+        top: 12px;
+        left: 16px;
+    }
+}

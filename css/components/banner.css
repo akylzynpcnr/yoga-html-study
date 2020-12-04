@@ -1,0 +1,33 @@
+
+.banner {
+    position: relative;
+    width:100%;
+    height: 720px;
+    background: url(../../images/banners/banner.png) no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+}
+
+@media only screen and (max-width: 768px) {
+  .banner {
+    background-position: 3% center;
+  }
+}
+
+.banner__content {
+    position: absolute;
+    top: 160px;
+    right: 220px;
+    color: var(--primary);
+    font-size: 72px;
+}
+
+@media only screen and (max-width: 768px) {
+  .banner__content {
+      font-size: 24px;
+  }
+}
+
+.banner__content p {
+    margin: 0;
+}
