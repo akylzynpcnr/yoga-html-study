@@ -1,0 +1,28 @@
+/*
+* Testimonial
+*/
+
+.testimonial-item {
+    text-align: center;
+    color: var(--primary);
+    padding: 32px 0;
+}
+
+.testimonial-item__copy {
+    font-size: 16px;
+}
+
+.testimonial-item__image {
+    width: 60px;
+    height: 60px;
+}
+
+.testimonial-item__name {
+    font-size: 14px;
+    margin: 8px 0 0;
+}
+
+.testimonial-item__summary {
+    font-size: 12px;
+    margin: 0;
+}

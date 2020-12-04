@@ -10,7 +10,8 @@
 
 @media only screen and (max-width: 768px) {
   .banner {
-    background-position: 3% center;
+    height: 500px;
+    background-position: right center;
   }
 }
 
@@ -20,6 +21,14 @@
     right: 220px;
     color: var(--primary);
     font-size: 72px;
+}
+
+@media only screen and (max-width: 768px) {
+  .banner__content {
+    top: 100px;
+    left: 25%;
+    right: none;
+  }
 }
 
 @media only screen and (max-width: 768px) {

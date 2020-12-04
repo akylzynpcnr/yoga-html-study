@@ -38,6 +38,12 @@
     content: "";
 }
 
+@media only screen and (max-width: 768px) {
+    .section--carousel:before {
+        top: 20px;
+    }
+}
+
 .section--carousel__header {
     text-align: center;
     color: var(--primary);
@@ -183,4 +189,16 @@
 .section--page-header .subtitle {
     font-size: 14px;
     color: var(--primary);
+}
+
+.section--testimonials {
+    background-color: #e5eaf7;
+    padding: 120px 0;
+    color: var(--primary);
+}
+
+@media only screen and (max-width: 768px) {  
+    .section--testimonials {
+        padding: 32px 0;
+    }
 }
